@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Project name and version
-project(Amevo_Enam_HW1 VERSION 1.0)
+project(SFMLMazeGames VERSION 1.0)
 
 # Specify the C++ standard
 set(CMAKE_CXX_STANDARD 17)
@@ -27,13 +27,10 @@ endif()
 
 
 add_subdirectory(SFML)
-# add_subdirectory(Chapter01)
-# add_subdirectory(Chapter05)
-# add_subdirectory(Chapter07)
-add_subdirectory(HW1)
+add_subdirectory(src)
 
 # copy the font into build folder!
-file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/HW1/PressStart2P.ttf"
+file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/src/PressStart2P.ttf"
   DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/output/bin")
 
 # Include header files

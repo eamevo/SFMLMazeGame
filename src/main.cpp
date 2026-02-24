@@ -235,7 +235,7 @@ int main(int argc, char* argv[]) {
     // default size 800 x 600 but user can resize
     sf::RenderWindow window(sf::VideoMode(800,600), "ECE 4122 Maze Solver!", sf::Style::Default);
     sf::Font font;
-    bool validFont = font.loadFromFile("output/bin/PressStart2P.ttf"); //CMakeLists will have already copied this to the specified location
+    bool validFont = font.loadFromFile("PressStart2P.ttf"); //CMakeLists will have already copied this to the specified location
     // will be true if the font loads
     if (!validFont)
     {

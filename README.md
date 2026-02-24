@@ -16,11 +16,18 @@ Download SFML [here](https://github.com/jhurley-blip/ECE4122-6122-SFML/tree/mast
 Download this repo!
 
 Folder Structure should be:
-```text
+```text            
 SFMLMazeGame/
-├── CMakeLists.txt      # Build configuration
-├── HW1/                # Source files (.cpp, .h)
-└── SFML/               # SFML library files
+├── SFML/                 # SFML library files
+├── src/                  # Source files (.cpp, .h)
+│   ├── CMakeLists.txt  
+│   ├── main.cpp
+│   ├── MazeGenerator.cpp
+│   ├── Pathfinder.cpp
+│   └── fonts/
+│       └── PressStart2P.ttf
+├── README.md
+└── CMakeLists.txt     # Top Level Build configuration 
 ```
   
 Compilation Instructions:

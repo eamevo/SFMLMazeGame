@@ -30,7 +30,7 @@ add_subdirectory(SFML)
 add_subdirectory(src)
 
 # copy the font into build folder!
-file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/src/PressStart2P.ttf"
+file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/src/fonts/PressStart2P.ttf"
   DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/output/bin")
 
 # Include header files

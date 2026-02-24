@@ -20,3 +20,10 @@ SFMLMazeGame
 - CMakeLists.txt
 - README.md
   
+Compilation Instructions:
+1. in top level folder, run mkdir build && cd build
+2. cmake ..
+3. cmake --build .
+4. ./output/bin/HW1 (optional width) (optional height)
+
+example inputs: ./output/bin/HW1 50 40 would create a 51 x 41 maze.

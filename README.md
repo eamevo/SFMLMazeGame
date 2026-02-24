@@ -21,7 +21,9 @@ SFMLMazeGame/
 ├── src/                  # Source files (.cpp, .h)
 │   ├── CMakeLists.txt  
 │   ├── main.cpp
+│   ├── MazeGenerator.h
 │   ├── MazeGenerator.cpp
+│   ├── Pathfinder.h
 │   ├── Pathfinder.cpp
 │   └── fonts/
 │       └── PressStart2P.ttf

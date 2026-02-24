@@ -14,11 +14,11 @@ If my Cmake method doesn't work, copy the font into your build/output/bin folder
 
 Folder Structure should be:
 
-SFMLMazeGame
-- HW1
-- SFML
-- CMakeLists.txt
-- README.md
+SFMLMazeGame/
+├── CMakeLists.txt      # Build configuration
+├── HW1/                # Source files (.cpp, .h)
+├── SFML/               # SFML library files (download [here]([(https://github.com/jhurley-blip/ECE4122-6122-SFML/tree/master/SFML)]))
+└── fonts/              # Asset directory
   
 Compilation Instructions:
 1. in top level folder, run mkdir build && cd build
@@ -27,3 +27,5 @@ Compilation Instructions:
 4. ./output/bin/HW1 (optional width) (optional height)
 
 example inputs: ./output/bin/HW1 50 40 would create a 51 x 41 maze.
+
+

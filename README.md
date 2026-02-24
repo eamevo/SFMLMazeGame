@@ -12,10 +12,10 @@ If for some reason it does not work, you can find my font in the HW1 folder. It 
 
 If my Cmake method doesn't work, copy the font into your build/output/bin folder manually.
 
-Download SFML here: (download [here]((https://github.com/jhurley-blip/ECE4122-6122-SFML/tree/master/SFML)))
+Download SFML [here](https://github.com/jhurley-blip/ECE4122-6122-SFML/tree/master/SFML).
+Download this repo!
 
 Folder Structure should be:
-
 ```text
 SFMLMazeGame/
 ├── CMakeLists.txt      # Build configuration

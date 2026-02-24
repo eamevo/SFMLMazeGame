@@ -14,6 +14,8 @@ A C++ application that procedurally generates a maze and solves it using Breadth
 
 Download SFML [here](https://github.com/jhurley-blip/ECE4122-6122-SFML/tree/master/SFML).
 
+Download this repo as a zip. Rename to SFMLMazeGame. It downloads as SFMLMazeGame-main.
+
 # Project Structure
 ```text            
 SFMLMazeGame/

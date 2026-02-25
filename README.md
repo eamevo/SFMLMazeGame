@@ -12,9 +12,11 @@ A C++ application that procedurally generates a maze and solves it using Breadth
 
 # Prerequisites/SetUp
 
-Clone this repo.
+Clone this repo then move into it.
 ```
 git clone https://github.com/eamevo/SFMLMazeGame.git
+
+cd SFMLMazeGame
 ```
 In root folder, run the following:
 

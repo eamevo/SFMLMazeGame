@@ -10,11 +10,28 @@ ECE 4122
 
 A C++ application that procedurally generates a maze and solves it using Breadth-First Search. This project uses **SFML 2.5.1+** for real-time rendering and includes dynamic speed controls and window resizing.
 
-# Prerequisites
-
-Download SFML [here](https://github.com/jhurley-blip/ECE4122-6122-SFML/tree/master/SFML).
+# Prerequisites/SetUp
 
 Clone this repo.
+```
+git clone https://github.com/eamevo/SFMLMazeGame.git
+```
+In root folder, run the following:
+
+
+```
+# Clone the entire repo:
+git clone https://github.com/jhurley-blip/ECE4122-6122-SFML.git
+
+# Move SFML folder up to your current spot:
+# (Use 'mv' for Mac/Linux or 'move' for Windows CMD)
+mv ECE4122-6122-SFML/SFML .
+
+# Delete the rest of the repository:
+# (Use 'rm -rf' for Mac/Linux or 'rmdir /s /q' for Windows CMD)
+rm -rf ECE4122-6122-SFML
+```
+Alternatively, you can download this repo as a zip. Make sure you change the name from SFMLMazeGame-main to SFMLMazeGame. You can also download the SFML folder [directly](https://github.com/jhurley-blip/ECE4122-6122-SFML/tree/master/SFML). Place it in your SFMLMazeGame folder.
 
 # Project Structure
 ```text            
@@ -38,7 +55,7 @@ SFMLMazeGame/
 ```
 mkdir build && cd build
 ```
-3. Configure and build:
+2. Configure and build:
 ```
 cmake ..
 cmake --build .
